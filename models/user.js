@@ -2,7 +2,7 @@ const db = require("../db");
 const { BCRYPT_WORK_FACTOR, SECRET_KEY } = require("../config");
 const ExpressError = require("../expressError");
 const bcrypt = require("bcrypt");
-const { user } = require("../db");
+// const { user } = require("../db");
 
 /** User class for message.ly */
 
